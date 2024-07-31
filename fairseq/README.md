@@ -1,3 +1,4 @@
+This folder is to encode speech into hubert tokens, which will be 2 to 3 times faster than the original fairseq implementation.
 Data manifest:
 ```bash
 python manifest.py <audio_root> --valid-percent 0 --dest <output_path> --ext flac --min-dur 0
